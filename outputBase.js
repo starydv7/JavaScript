@@ -9,3 +9,4 @@ console.log(a[0] === b[0]);
 let obj1 = [];
 let obj2 = [];
 console.log(obj1 === obj2);
+
