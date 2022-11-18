@@ -74,3 +74,12 @@ console.log(!!data);
 
 // forEach and map differences
 // map return new array but forEach can manipulate the original data but map return new array
+
+
+//delete from arrray number wise
+
+let data3 = ["Pawan", "Yadav", "Csex"];
+delete data3[1];
+console.log("Delete data from Array", data3);
+delete data3[2];
+console.log(data3);
