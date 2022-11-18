@@ -49,4 +49,6 @@ console.log("Remove duplicate from array", newArr);
 //unshift to remove last element of array
 let unshiftArr = arrData.pop();
 console.log("Remove last elemt from array", unshiftArr);
-
+//check any element odd or even
+let arrNum = 38;
+console.log(a % 2);
