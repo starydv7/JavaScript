@@ -19,3 +19,8 @@ function timeConversion(s) {
 var s = '12:51:61PM';
 const res = timeConversion(s);
 console.log(res);
+//check is not a numberconst 
+let name2 = "Pawan";
+let age = 24;
+console.log(isNaN(name2));
+console.log(isNaN(age));
