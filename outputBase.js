@@ -72,4 +72,5 @@ console.log(!data);
 console.log(!!data);
 
 
-
+// forEach and map differences
+// map return new array but forEach can manipulate the original data but map return new array
