@@ -46,3 +46,7 @@ console.log("Remove duplicate from array", newArr);
 //     el * 2;
 // })
 // console.log("Double with Map",doubleArray);
+//unshift to remove last element of array
+let unshiftArr = arrData.unshift();
+console.log("Remove last elemt from array", unshiftArr);
+
