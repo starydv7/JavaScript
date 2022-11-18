@@ -83,3 +83,11 @@ delete data3[1];
 console.log("Delete data from Array", data3);
 delete data3[2];
 console.log(data3);
+
+//merge two array
+
+var arr1 = [2, 3, 5, 6, 7, 8, 9];
+var arr2 = [5, 444, 4, 3, 2, 2, 1, 6, 6, 7, 8, 9, 10];
+let finalArr =[...arr1,...arr2];
+console.log(...arr1, ...arr2);
+console.log(finalArr);
