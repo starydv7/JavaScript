@@ -52,3 +52,12 @@ console.log("Remove last elemt from array", unshiftArr);
 //check any element odd or even
 let arrNum = 38;
 console.log(a % 2);
+
+// delete an property from object
+let data = {
+    name: "Anil",
+    age:24,
+}
+// delete data.name;
+delete data.name;
+console.log(data);
