@@ -25,3 +25,11 @@ let age = 24;
 console.log(isNaN(name2));
 console.log(isNaN(age));
 
+//modify after seal
+//we can only modify present object after seal;
+let person = { name: "Pawan" };
+Object.seal(person);
+// person.age = 23;
+ person.name = "Yadav";
+console.log(person);
+
