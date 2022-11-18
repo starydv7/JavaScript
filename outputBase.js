@@ -61,3 +61,15 @@ let data = {
 // delete data.name;
 delete data.name;
 console.log(data);
+
+//convert data to boolean false value
+
+let data2 = "true";
+console.log(typeof !data2);
+console.log(!data);
+
+//conver data to boolean true value
+console.log(!!data);
+
+
+
