@@ -32,3 +32,12 @@ Object.seal(person);
 // person.age = 23;
  person.name = "Yadav";
 console.log(person);
+
+//remove 1st element from array
+//shift
+var arrData = [2, 5, 7, 9, 2, 22, 8, 5, 3, 2, 7, 9, 3];
+arrData.shift();
+console.log("Remove 1st element from array", arrData);
+//remove duplicate from array
+let newArr = new Set(arrData);
+console.log("Remove duplicate from array",newArr);
