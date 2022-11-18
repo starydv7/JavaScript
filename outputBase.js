@@ -42,7 +42,7 @@ console.log("Remove 1st element from array", arrData);
 let newArr = new Set(arrData);
 console.log("Remove duplicate from array", newArr);
 //double this array
-let doubleArray=arrData.map((el) => {
-    el * 2;
-})
-console.log("Double with Map",doubleArray);
+// let doubleArray=arrData.map((el) => {
+//     el * 2;
+// })
+// console.log("Double with Map",doubleArray);
