@@ -24,3 +24,4 @@ let name2 = "Pawan";
 let age = 24;
 console.log(isNaN(name2));
 console.log(isNaN(age));
+
