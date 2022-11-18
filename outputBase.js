@@ -19,4 +19,16 @@ console.log(y);
 const name = "Code by Pawan";
 console.log(!typeof name === "object");
 console.log(!typeof name === "string");
-console.log(!typeof name===false);
+console.log(!typeof name === false);
+let name2 = "Pawan";
+let age = 24;
+console.log(isNaN(name2));
+console.log(isNaN(age));
+
+//modify after seal
+//we can only modify present object after seal;
+let person = { name: "Pawan" };
+Object.seal(person);
+// person.age = 23;
+ person.name = "Yadav";
+console.log(person);
