@@ -14,3 +14,8 @@ console.log(obj1 === obj2);
 let arr = ["Pawan", "Yadav", "ams"];
 let [, y] = arr;
 console.log(y);
+
+//tricky
+const name = "Code by Pawan";
+console.log(!typeof name === "object");
+console.log(!typeof name==="string");
