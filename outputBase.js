@@ -18,4 +18,5 @@ console.log(y);
 //tricky
 const name = "Code by Pawan";
 console.log(!typeof name === "object");
-console.log(!typeof name==="string");
+console.log(!typeof name === "string");
+console.log(!typeof name===false);
