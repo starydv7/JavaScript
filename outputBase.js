@@ -1,8 +1,8 @@
 //check string and number
 let a = [20];
 let b = ["20"];
-console.log(a[0] == b[0]);
-console.log(a[0] === b[0]);
+console.log(a[0] == b[0]);//true
+console.log(a[0] === b[0]);//false
 
 //check object
 
@@ -12,8 +12,8 @@ console.log(obj1 === obj2);
 
 // find 2nd element in array
 let arr = ["Pawan", "Yadav", "ams"];
-let [, y] = arr;
-console.log(y);
+let [,y] = arr;
+console.log("resulr",y);
 
 //tricky
 const name = "Code by Pawan";
@@ -66,7 +66,7 @@ console.log(data);
 
 let data2 = "true";
 console.log(typeof !data2);
-console.log(!data);
+console.log(!data2);
 
 //conver data to boolean true value
 console.log(!!data);

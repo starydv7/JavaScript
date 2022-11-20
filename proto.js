@@ -1,4 +1,4 @@
-//use property of one another inio another function or object
+//use property of one another into another function or object
 const person = {
     alive: true
 }
